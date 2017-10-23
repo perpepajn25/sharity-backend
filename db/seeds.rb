@@ -13,3 +13,5 @@ save_puppy = Task.create(charity: puppies, title: "Save a puppy", description: "
 david = User.create(username: "david", password: "1234", email: "david@david.com", phone: "777-777-7777" )
 
 user_task = UserTask.create(user: david, task: save_puppy)
+
+save_another_dog = Task.create(charity: puppies, title: "Save a another puppy", description: "save a puppy from a bridge", address: "apple street", category: "animals", date: Time.now.strftime("%m-%d-%y"), lat: 40.767778, lng: -73.9718335, max_people: 3)
