@@ -5,4 +5,7 @@ Rails.application.routes.draw do
   post "/signup", to: "sessions#signup"
 
   post "/signin", to: "sessions#signin"
+
+  post "/create", to: "tasks#create"
+
 end
