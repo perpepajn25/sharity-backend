@@ -5,6 +5,8 @@ class CreateCharities < ActiveRecord::Migration[5.1]
       t.string :description
       t.string :url
       t.string :contact
+      t.string :email
+      t.string :password_digest
       t.string :phone
       t.boolean :verified, default: false
 

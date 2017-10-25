@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 20171020175755) do
     t.string "description"
     t.string "url"
     t.string "contact"
+    t.string "email"
+    t.string "password_digest"
     t.string "phone"
     t.boolean "verified", default: false
     t.datetime "created_at", null: false
